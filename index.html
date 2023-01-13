@@ -14,13 +14,34 @@
 
 </head>
 
-<body><br>
-  <center>
-    <div class="btn btn-info">Claro</div>
-    <br><br>
-    <div class="btn btn-primary">Escuro</div>
-  </center>
-   
+<body background="background.jpg">
+<center>
+  <h3 class="btn-primary heading">App de Identificação de Imagem em Tempo Real
+    <hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 headingDiv">
+        Estamos usando o Mobilenet como modelo.  
+        <br>
+          <div class="btn headingDiv2">
+            O modelo Mobilenet é treinado em <br> mais de 1,3 milhão de imagens 
+          </div>
+        </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
+  
+  <p class="btn btn-success result_para_tag">Objeto: 
+    <span id="resultObjectName"></span> 
+  </p>
+  
+  <br><br>
+  <p class="btn btn-success result_para_tag">Precisão: 
+    <span id="resultObjectAccuracy"></span> 
+  </p>
+
+</center>
+
 <div class="copyRightFooter">
   Desenvolvido por: BYJU'S Team
 </div>
@@ -29,3 +50,5 @@
 </body>
 
 </html>
+
+
